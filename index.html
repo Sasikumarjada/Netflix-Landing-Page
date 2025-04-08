@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo">
+            </div>
+            <div class="nav-actions">
+                <select class="language-selector">
+                    <option>English</option>
+                    <option>Español</option>
+                </select>
+                <button class="sign-in-btn">Sign In</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <h2>Watch anywhere. Cancel anytime.</h2>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email-form">
+                <input type="email" placeholder="Email address">
+                <button>Get Started ></button>
+            </div>
+        </div>
+    </main>
+
+    <section class="features">
+        <div class="feature">
+            <div class="feature-text">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="feature-image">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="TV">
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section" id="content" style="display: none;">
+        <h2>Popular on Netflix</h2>
+        <div class="content-row">
+            <div class="content-item">
+                <img src="https://image.tmdb.org/t/p/w500/9PqD3wgiVH0X3r8sT8S3Jm6Z5wT.jpg" alt="Stranger Things">
+                <div class="content-overlay">
+                    <h3>Stranger Things</h3>
+                    <button class="play-btn">▶ Play</button>
+                </div>
+            </div>
+            <div class="content-item">
+                <img src="https://image.tmdb.org/t/p/w500/5DUMPBSnHOZbBtOV4I1KjyY8Ton.jpg" alt="The Witcher">
+                <div class="content-overlay">
+                    <h3>The Witcher</h3>
+                    <button class="play-btn">▶ Play</button>
+                </div>
+            </div>
+            <div class="content-item">
+                <img src="https://image.tmdb.org/t/p/w500/34nDCQZwaEvsy4CFO5hkGRFDCVU.jpg" alt="Money Heist">
+                <div class="content-overlay">
+                    <h3>Money Heist</h3>
+                    <button class="play-btn">▶ Play</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-content">
+            <p>Questions? Call 1-844-505-2993</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
